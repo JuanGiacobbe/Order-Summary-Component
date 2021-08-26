@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+/* GENERAL STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+a{
+    text-decoration: none;
+}
+
+/* MAIN IMAGE STYLES */
+.main-img{
+    border-radius: 20px 20px 0 0;
+}
+
+/* MAIN TEXT STYLES */
+.text{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    padding: 10px;
+}
+
+/* PLAN STYLES */
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.plan-text .annual{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    padding: 6px;
+}
+.plan-text .price{
+    font-size: 15px;
+}
+.buy .change{
+    color: hsl(245, 75%, 52%);
+}
+
+/* BUTTONS STYLES */
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    width: 70%;
+}
+.proceed{
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    background: hsl(245, 74%, 60%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cancel{
+    padding: 20px;
+    color:hsl(223, 47%, 23%);
+}
